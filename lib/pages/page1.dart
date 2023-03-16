@@ -18,7 +18,7 @@ class Page1State extends State<Page1> {
   Widget build(BuildContext context) {
     return SafeArea(
         child: Scaffold(
-            backgroundColor: Colors.white,
+            backgroundColor: Colors.red,
             body: Container(child: Text("This is page 1"))
         )
     );
