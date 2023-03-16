@@ -19,7 +19,7 @@ class Page1State extends State<Page1> {
     return SafeArea(
         child: Scaffold(
             backgroundColor: Colors.red,
-            body: Container(child: Text("This is page 1"))
+            body: Container(child: Text("This is modified page 1"))
         )
     );
   }
