@@ -18,8 +18,8 @@ class Page2State extends State<Page2> {
   Widget build(BuildContext context) {
     return SafeArea(
         child: Scaffold(
-            backgroundColor: Colors.red,
-            body: Container(child: Text("This is modified page 2"))
+            backgroundColor: Colors.white,
+            body: Container(child: Text("This is page 2"))
         )
     );
   }
